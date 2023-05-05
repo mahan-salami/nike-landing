@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Samsung Sharp Sans Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sharp Sans Bold'), url('samsungsharpsans-bold.woff') format('woff');
+    }
+
+body{
+    background-image: url('Web 1920 – 2.png');
+    background-size: cover;
+    font-family:'Samsung Sharp Sans Bold';font-weight:normal;font-size:16px
+   
+}
+nav{
+    display: flex;
+    margin-left: 570px;
+    align-items: center;
+}
+
+
+
+
+.logo{
+    width: 100px;
+    height: 40px;
+   margin-left: -550px;
+   padding-right: 390px;
+}
+.logo img{
+    width: 100px;
+    height: 40px;
+    
+}
+nav ul li{
+    justify-content: space-between;
+    list-style: none ;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul li a {                                                      
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li::after{
+    content:"";
+    height: 2px;
+    width: 0px;
+    background-color: blue;
+    display: block;
+    transition: 0.7s;
+}
+
+
+nav ul li:hover::after{
+    width: 100%;
+    background-color: blue;
+    
+}
+
+.icon {
+margin-left: 400px;
+
+}
+
+.nike-landing{
+    width: 100px;
+    height: 100px;
+    padding: -100px;
+    margin: 150px 400px;
+    z-index: 1;
+}
+
+.nike-landing img{
+    width: 800px;
+    height: 300px;
+}
+
+.nike-shoes{
+    width: 100px;
+    height: 100px;
+    
+  
+}
+
+
+.nike-shoes img {
+    position: absolute;
+    transition: 0.8s;
+    
+    width: 500px;
+    height: 230px;
+    padding-left: 32%;
+    margin-top: -200px;
+    z-index: 2;
+}
+
+.nike-shoes img:hover {
+    transform: rotate(-20deg);
+    transition: 0.8s;
+}
+
+.just-do{
+    
+    font-weight: bold ;
+    padding-left: 130px;
+    margin-top: -420px;
+   
+}
+
+.just-do h1 {
+    font-size: 100px;
+}
+
+.just-do h2 {
+    font-size: 80px;
+}
+
+.just-do h3 {
+    font-size: 60px;
+}
+
+.white-box{
+    width: 170px;
+    height: 220px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: #181819;
+    margin-left: 77%;
+    margin-top: -450px;
+    top:50% ;
+    left: 50%;
+    z-index: 9;
+}
+
+#btn1{
+    
+    background: #333333;
+    padding: 0.5px 10px;
+    border-radius: 6px;
+   
+}
+#btn2{
+    
+    background: #38629a;
+    padding: 0.5px 10px;
+    border-radius: 6px;
+   
+}
+
+
+#btn3{
+    
+    background: #be2424;
+    padding: 0.5px 10px;
+    border-radius: 6px;
+   
+}
+
+#btn4{
+    
+    background: #bebebe;
+    padding: 0.5px 10px;
+    border-radius: 6px;
+   
+}
+
+#btn5{
+    transition: 0.6s;
+    background: #242424;
+    padding: 0.5px 10px;
+    border-radius: 6px;
+   margin-right: 50px;
+   margin: 62px; padding-left: 10px; padding: 10px; color: rgb(255, 255, 255); text-decoration: none; border-radius: 12px;
+}
+
+#btn5:hover{
+    background: #d55656;
+    transition: 0.6s;
+    color: rgb(0, 0, 0);
+}
+
+.white-box img {
+    width: 50px;
+    height: 20px;
+    margin-top: 8px;
+    margin-left: 60px;
+}
+
+.white-box a {
+    margin: 3px;
+}
+.white-box h5 {
+    color: #181819;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.watch-more{
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-bottom: -40px;
+}
+.watch-more h20{
+    padding-left: 20px;
+    padding-top: -20px;
+    margin-bottom: 20px;
+}
+
+
+#play {
+    padding-top: 50px;
+    padding-right: -100px;
+    padding-bottom: -40px;
+    width: 45px;
+    height: 45px;
+}
+
+.bio{
+    padding-left:1100px ;
+    margin-top: 144px;
+}
+
+.air{
+    padding-left:1150px ;
+    margin-top: -181px;
+}
+
+.air img {
+    width:200px ;
+    height: 150px;
+}
